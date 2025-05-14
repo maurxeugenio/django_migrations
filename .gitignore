@@ -1,0 +1,63 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+db.sqlite3
+# Editor & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Migrations (opcional: apenas se deseja gerar sempre do zero)
+# ** Não recomendado em produção **
+# */migrations/
+# !*/migrations/__init__.py
+
+# dotenv
+.env
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+.cache
+
+# MyPy, Pytest, etc.
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+
+# Build
+build/
+dist/
+*.egg-info/
