@@ -7,6 +7,10 @@ class Product(models.Model):
         default="",
         max_length=200
     )
+    sku = models.CharField(
+        default="",
+        max_length=30
+    )
     price = models.DecimalField(
         default=Decimal("0.00"),
         decimal_places=2,
@@ -19,3 +23,4 @@ class Product(models.Model):
 
     def __str__(self):
         return f'{self.name} - {self.price}'
+  
