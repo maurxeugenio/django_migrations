@@ -8,7 +8,9 @@ class Product(models.Model):
         max_length=200
     )
     price = models.DecimalField(
-        default=Decimal("0.00")
+        default=Decimal("0.00"),
+        decimal_places=2,
+        max_digits=20
     )
     description = models.CharField(
         max_length=400,
